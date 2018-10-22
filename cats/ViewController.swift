@@ -32,6 +32,7 @@ class ViewController: UIViewController {
                                 image1.frame.origin.y = y_offset
                                 self.scrollView.addSubview(image1)
                                 y_offset += image1.frame.size.height
+
                                 self.scrollView!.sizeThatFits(CGSize(width: image1.frame.size.width,height: y_offset))
                             }
                         }
